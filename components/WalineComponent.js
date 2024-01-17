@@ -28,7 +28,7 @@ const WalineComponent = (props) => {
         el: containerRef.current,
         serverURL: siteConfig('COMMENT_WALINE_SERVER_URL'),
         lang: siteConfig('LANG'),
-        reaction: true,
+        reaction: false,
         dark: 'html.dark',
         emoji: [
           '//npm.elemecdn.com/@waline/emojis@1.1.0/tieba',

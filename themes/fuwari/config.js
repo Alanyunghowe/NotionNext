@@ -24,7 +24,7 @@ const CONFIG = {
   // 首页文章列表卡片
   // ---------------------------------------------------------------------------
   /** 是否显示右侧封面图区域 */
-  FUWARI_POST_LIST_COVER: true,
+  FUWARI_POST_LIST_COVER: false,
   /** 无文章封面时，是否用站点横幅图（HOME_BANNER_IMAGE）作默认图 */
   FUWARI_POST_LIST_COVER_DEFAULT: false,
   /** 封面悬停轻微放大 */
@@ -46,7 +46,7 @@ const CONFIG = {
   // 首页 Hero 大图区（封面来自站点信息或下方图片配置）
   // ---------------------------------------------------------------------------
   /** 是否渲染 Hero 区块（无图时仍占位，可按需关） */
-  FUWARI_HERO_ENABLE: true,
+  FUWARI_HERO_ENABLE: false,
   /** 自定义背景图 URL；留空则用 Notion 站点封面或 HOME_BANNER_IMAGE */
   FUWARI_HERO_BG_IMAGE: '',
   /** 右下角署名文案；留空不显示 */
@@ -100,23 +100,23 @@ const CONFIG = {
   // 联系卡片（侧栏，可翻转）
   // ---------------------------------------------------------------------------
   /** 正面标题 */
-  FUWARI_CONTACT_TITLE: '社区',
+  FUWARI_CONTACT_TITLE: '你先别急🥺',
   /** 正面说明文案 */
-  FUWARI_CONTACT_DESCRIPTION: '欢迎交流与反馈',
+  FUWARI_CONTACT_DESCRIPTION: '建站居然这么久了...',
   /** 正面右上角徽标 */
-  FUWARI_CONTACT_FRONT_BADGE: 'Community',
+ // FUWARI_CONTACT_FRONT_BADGE: 'Community',
   /** 跳转 URL（外链或站内路径） */
-  FUWARI_CONTACT_URL: 'https://docs.tangly1024.com/article/chat-community',
+//  FUWARI_CONTACT_URL: 'https://docs.tangly1024.com/article/chat-community',
   /** 正面行动文案（如「联系我们 →」） */
-  FUWARI_CONTACT_TEXT: '查看',
+//  FUWARI_CONTACT_TEXT: '查看',
   /** 是否使用正反面翻转卡片 */
   FUWARI_CONTACT_FLIP_CARD: true,
   /** 背面标题 */
-  FUWARI_CONTACT_BACK_TITLE: '支持内容',
+  FUWARI_CONTACT_BACK_TITLE: '我已急哭🥹',
   /** 背面说明 */
-  FUWARI_CONTACT_BACK_DESCRIPTION: '可提交问题、建议与合作意向。',
+  FUWARI_CONTACT_BACK_DESCRIPTION: '我会续更...',
   /** 背面行动文案 */
-  FUWARI_CONTACT_BACK_TEXT: '查看',
+//  FUWARI_CONTACT_BACK_TEXT: '查看',
 
   // ---------------------------------------------------------------------------
   // 全站动效（按需开启，可能影响性能）
